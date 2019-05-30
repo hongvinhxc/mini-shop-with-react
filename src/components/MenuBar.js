@@ -29,7 +29,7 @@ export default class MenuBar extends React.Component {
     return (
       <Router>
         <div>
-          <Navbar color="primary" dark expand="md">
+          <Navbar className="sticky-top" color="primary" dark expand="md">
             <Link className="navbar-brand" color="dark" to='/'>
              Herry Vinh
             </Link>
